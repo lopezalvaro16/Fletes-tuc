@@ -62,7 +62,8 @@ body {
 }
 
 .parrafito {
-  font-size: 1rem;
+  text-align: center;
+  font-size: 1.2rem;
   color: #fff;
 }
 
@@ -188,7 +189,7 @@ body {
     margin: 0;
   }
   .parrafito {
-    text-align: start;
+    text-align: center;
     font-size: 1rem;
     color: #fff;
     margin: 20px;
