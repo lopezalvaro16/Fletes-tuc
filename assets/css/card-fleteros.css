@@ -16,7 +16,10 @@ body{
 }
 .logo{
   margin: 25px;
+}
+.logo a{
   color: #5e5d72;
+  text-decoration: none;
 }
 .list{
   list-style: none;
@@ -33,12 +36,12 @@ body{
 }
 .element-list{
   cursor: pointer;
-  color: rgb(150, 148, 146);
   padding: 5px;
   border-radius: 5px;
    margin: 30px;
    transition: 0.2s;
 }
+
 .element-list:hover{
   transition: 1s;
   transform: scale(1.1);
@@ -101,8 +104,14 @@ div.contenedor__boton{
 .padre-card{
   display: flex;
   justify-content: center;
+
 }
-.tarjeta{
+.tarjeta:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+.tarjeta{  
+  transition: .2s;
   display:flex;
   flex-direction:column;
   justify-content:space-between;
@@ -121,6 +130,10 @@ div.contenedor__boton{
 }
 .cuerpo{
   padding: 10px;
+}
+.cuerpo a{
+  text-decoration: none;
+  color: black;
 }
 .pie{
   background: #6975f6;

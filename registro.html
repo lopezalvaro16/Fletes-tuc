@@ -1,78 +1,151 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FLETES ARG | Crear cuenta</title>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="/form-fletes/assets/css/base/base.css">
-    <link rel="stylesheet" href="/form-fletes/assets/css/registro.css">
-    <link rel="stylesheet" href="/form-fletes/assets/css/componentes/card.css">
-    <link rel="stylesheet" href="/form-fletes/assets/css/componentes/inputs.css">
-    <link rel="stylesheet" href="/form-fletes/assets/css/componentes/button.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/form-fletes/assets/css/base/base.css" />
+    <link rel="stylesheet" href="/form-fletes/assets/css/registro.css" />
+    <link
+      rel="stylesheet"
+      href="/form-fletes/assets/css/componentes/card.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/form-fletes/assets/css/componentes/inputs.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/form-fletes/assets/css/componentes/button.css"
+    />
+  </head>
+  <body>
     <main class="container flex flex--column flex--center">
-        <div class="header-registro">
-            <img src="https://images.vexels.com/media/users/3/138311/isolated/preview/9134bca3ad7ba83cb39ee6fd1e5e7223-icono-de-transporte-de-camion-van.png" alt="Logo" class="registro-header__logo">
-            <h1 class="registro-header__title">FLETES ARG</h1>
-        </div>
-        <section class="card">
-            <h2 class="card__title">Completa tu registro</h2>
-            <form action="/form-fletes/registro_concluido.html" class="formulario flex flex--column">
-                <fieldset>
-
-                    <div class="input-container">
-                        <input name="name" id="name" class="input" type="text" placeholder="Nombre" required>
-                        <label class="input-label" for="name">Nombre completo</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                    <div class="input-container">
-                        <input name="email" id="email" class="input" type="email" placeholder="Email" required>
-                        <label class="input-label" for="email">Email</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                </fieldset>
-                <fieldset>
-
-                    <div class="input-container">
-                        <input name="birth" id="birth" class="input" type="text" placeholder="Fecha de nacimento">
-                        <label class="input-label" for="birth">Fecha de nacimiento</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                    <div class="input-container">
-                        <input name="phoneNumber" id="phoneNumber" class="input" type="text" placeholder="Número telefónico">
-                        <label class="input-label" for="phoneNumber">Número telefónico</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                </fieldset>
-                <fieldset>
-
-                    <div class="input-container">
-                        <input name="cep" id="cep" class="input" type="text" placeholder="CEP">
-                        <label class="input-label" for="cep">Dirección completa</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                    <div class="input-container">
-                        <input name="city" id="city" class="input" type="text" placeholder="Ciudad">
-                        <label class="input-label" for="city">Ciudad</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                    <div class="input-container">
-                        <input name="state" id="state" class="input" type="text" placeholder="Estado" >
-                        <label class="input-label" for="state">Localidad</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                    <div class="input-container">
-                        <input name="number" id="number" class="input" type="text" placeholder="Con cuantas personas suele o podria trabajar">
-                        <label class="input-label" for="phoneNumber">Equipo de personas</label>
-                        <span class="input-message-error">Este campo no es valido</span>
-                    </div>
-                </fieldset>
-                <button class="button">Registrar</a>
-            </form>
-        </section>
+      <div class="header-registro">
+        <img
+          src="https://images.vexels.com/media/users/3/138311/isolated/preview/9134bca3ad7ba83cb39ee6fd1e5e7223-icono-de-transporte-de-camion-van.png"
+          alt="Logo"
+          class="registro-header__logo"
+        />
+        <h1 class="registro-header__title">FLETES TUC</h1>
+      </div>
+      <section class="card">
+        <h2 class="card__title">Completa tu registro</h2>
+        <form
+          action="/form-fletes/registro_concluido.html"
+          class="formulario flex flex--column"
+        >
+          <fieldset>
+            <div class="input-container">
+              <input
+                name="name"
+                id="name"
+                class="input"
+                type="text"
+                placeholder="Nombre"
+                required
+              />
+              <label class="input-label" for="name">Nombre completo</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="email"
+                id="email"
+                class="input"
+                type="email"
+                placeholder="Email"
+                required
+              />
+              <label class="input-label" for="email">Email</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="input-container">
+              <input
+                name="birth"
+                id="birth"
+                class="input"
+                type="text"
+                placeholder="Fecha de nacimento"
+              />
+              <label class="input-label" for="birth">Fecha de nacimiento</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="phoneNumber"
+                id="phoneNumber"
+                class="input"
+                type="text"
+                placeholder="Número telefónico"
+              />
+              <label class="input-label" for="phoneNumber"
+                >Número telefónico</label
+              >
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+          </fieldset>
+          <fieldset>
+            <div class="input-container">
+              <input
+                name="cep"
+                id="cep"
+                class="input"
+                type="text"
+                placeholder="CEP"
+              />
+              <label class="input-label" for="cep">Dirección completa</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="city"
+                id="city"
+                class="input"
+                type="text"
+                placeholder="Ciudad"
+              />
+              <label class="input-label" for="city">Ciudad</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="state"
+                id="state"
+                class="input"
+                type="text"
+                placeholder="Estado"
+              />
+              <label class="input-label" for="state">Localidad</label>
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+            <div class="input-container">
+              <input
+                name="number"
+                id="number"
+                class="input"
+                type="text"
+                placeholder="Con cuantas personas suele o podria trabajar"
+              />
+              <label class="input-label" for="phoneNumber"
+                >Equipo de personas</label
+              >
+              <span class="input-message-error">Este campo no es valido</span>
+            </div>
+          </fieldset>
+          <button class="button">Registrar</button>
+        </form>
+      </section>
     </main>
-</body>
+  </body>
 </html>

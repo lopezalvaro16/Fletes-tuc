@@ -3,7 +3,7 @@
   padding: 0;
   margin: 0;
 }
-.nav__container{
+.nav__container-2{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,22 +12,25 @@
 }
 .logo{
   margin: 25px;
-  color: #5e5d72;
 }
-.list{
+.logo a{
+  color: #5e5d72;
+  text-decoration: none;
+}
+.list-2{
   list-style: none;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 1.3rem;
 }
-.dropdown__icon{
+.dropdown__icon-2{
   transition: 1s;
 }
-.dropdown__icon:hover{
+.dropdown__icon-2:hover{
   transform: rotate(180deg);
 }
-.element-list a{
+.element-list-2 a{
   text-decoration: none;
   cursor: pointer;
   color: rgb(150, 148, 146);
@@ -36,7 +39,7 @@
    margin: 30px;
    transition: 0.2s;
 }
-.element-list:hover{
+.element-list-2:hover{
   transition: 1s;
   transform: scale(1.1);
   color: rgb(28, 25, 25);
@@ -100,6 +103,7 @@
   flex-direction: row-reverse;
   margin: 0px 100px 0px 100px;
 }
+
 .tarjeta-presentacion{
   display:flex;
   flex-direction:column;
@@ -111,8 +115,12 @@
   border-radius:15px;
   font-family: sans-serif;
   margin: 25px;
+  transition: .2s;
 }
-
+.tarjeta-presentacion:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2%);
+}
 .titulo{
   text-align: start;
   font-size: 2rem;
@@ -314,6 +322,13 @@
   margin: 20px;
   display: flex;
   justify-content: center;
+}
+.list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
 }
 .list li a{
   color: black;
